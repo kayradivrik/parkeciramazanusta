@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="js/script.js" defer></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Galeri | Parkeci Ramazan Usta</title>
+  </head>
+  <body>
+    <!-- Navbar (index’teki yapıya benzer) -->
+   <section id="hero">
+      <div class="container max-w-6xl mx-auto px-6 py-6">
+        <!-- Menu/Logo Container -->
+        <nav
+          class="flex items-center justify-evenly lg:justify-evenly text-white"
+        >
+          <!-- Logo -->
+           <a href="/">
+          <img
+            src="./images/logo.png"
+            alt="Img"
+            class="w-3/4 h-3/4 md:w-auto md:h-auto object-cover"
+          />
+        </a>
+          <!-- Menu -->
+          <div class="hidden h-10 font-oswald lg:flex lg:space-x-6 uppercase">
+            <div class="group">
+              <a href="./" class="group-hover:text-gray-300">ANASAYFA</a>
+              <div
+                class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+              ></div>
+            </div>
+
+            <div class="group">
+              <a href="gallery.html" class="group-hover:text-gray-300">GALERİ</a>
+              <div
+                class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+              ></div>
+            </div>
+
+            <div class="group">
+              <a href="videos.html" class="group-hover:text-gray-300">VİDEOLAR</a>
+              <div
+                class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+              ></div>
+            </div>
+
+            <div class="group">
+              <a href="#" class="group-hover:text-gray-300">HİZMETLER</a>
+              <div
+                class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+              ></div>
+            </div>
+
+            <div class="group">
+              <a href="#" class="group-hover:text-gray-300">HAKKIMIZDA </a>
+              <div
+                class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+              ></div>
+            </div>
+
+            <div class="group">
+              <a href="#" class="group-hover:text-gray-300">İLETİŞİM </a>
+              <div
+                class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+              ></div>
+            </div>
+          </div>
+          <!-- Hamburger Button -->
+          <div class="lg:hidden">
+            <button
+              id="menu-btn"
+              type="button"
+              class="z-50 bloc hamburger lg:hidden focus:outline-none"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </nav>
+        <!-- Mobile Menu -->
+
+        <div
+          id="menu"
+          class="fixed z-40 inset-y-0 right-0 hidden translate-x-full transition-transform duration-300 ease-out flex-col w-72 max-w-full min-h-screen py-1 pt-40 px-6 space-y-1 text-lg text-white uppercase bg-[#241b18] lg:hidden shadow-xl"
+        >
+                   <a href="/" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">ANASAYFA</a>
+          <a href="./gallery.html" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">GALERİ</a>
+          <a href="./videos.html" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">VİDEOLAR</a>
+          <a href="#" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">HİZMETLER</a>
+          <a href="#" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">HAKKIMDA</a>
+          <a href="#" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">İLETİŞİM</a>
+        </div>
+      </div>
+    </section>
+
+    <main class="container max-w-960 mx-auto px-4 py-10">
+      <div class="bg-white p-12 md:p-12">
+      <h1 class="font-oswald text-3xl text-[#241b18] mb-6">Galeri</h1>
+      <p class="text-[#241b18] mb-6">Yaptığım işlerden bazı örnekler:</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <img src="images/living-room.jpg" alt="Çalışma" class="w-full h-56 object-cover" />
+        <img src="images/bedroom.jpg" alt="Çalışma" class="w-full h-56 object-cover" />
+        <img src="images/kitchen.jpg" alt="Çalışma" class="w-full h-56 object-cover" />
+        <img src="images/sofa.jpg" alt="Çalışma" class="w-full h-56 object-cover" />
+        <img src="images/resort.png" alt="Çalışma" class="w-full h-56 object-cover" />
+        <img src="images/resort-small.png" alt="Çalışma" class="w-full h-56 object-cover" />
+      </div>
+      </div>
+    </main>
+
+    <!-- Footer (sade versiyon) -->
+    <footer class="bg-accent">
+        <div class="container max-w-960 py-10 mx-auto">
+          <!-- Footer Flex Container -->
+          <div
+            class="flex flex-col mx-24  items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start"
+          >
+            <!-- Menu & logo Container -->
+            <div
+              class="flex flex-col items-center space-y-8 md:items-start md:space-y-4"
+            >
+              <!-- Logo -->
+              <div class="h-8 md:space-y-4">
+                <img src="images/logo.svg" alt="" class="w-44 md:ml-3" />
+              </div>
+              <!-- Menu Container -->
+              <div
+                class="flex flex-col items-center space-y-4 font-oswald text-primary md:flex-row md:space-y-0 md:space-x-6 md:ml-3"
+              >
+                <!-- Item 1 -->
+                <div class="h-10 group">
+                  <a href="">Anasayfa</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 2 -->
+                <div class="h-10 group">
+                  <a href="">Galeri</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 3 -->
+                <div class="h-10 group">
+                  <a href="">Videolar</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 4-->
+                <div class="h-10 group">
+                  <a href="">Hizmetler</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 5 -->
+                <div class="h-10 group">
+                  <a href="">Hakkımda</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 6 -->
+                <div class="h-10 group">
+                  <a href="">İletişim</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Social & Copy Container -->
+            <div class="flex flex-col items-start justify-between space-y-4">
+              <!-- Icon Container -->
+              <div
+                class="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0"
+              >
+                <!-- Icon 1  -->
+                <div class="h-8 group">
+                  <a href="">
+                    <img src="images/icon-facebook.svg" class="h-6" alt="" />
+                  </a>
+                </div>
+  
+                <!-- Icon 2  -->
+                <div class="h-8 group">
+                  <a href="">
+                    <img src="images/icon-twitter.svg" class="h-6" alt="" />
+                  </a>
+                </div>
+  
+                <!-- Icon 3  -->
+                <div class="h-8 group">
+                  <a href="">
+                    <img src="images/icon-pinterest.svg" class="h-6" alt="" />
+                  </a>
+                </div>
+  
+                <!-- Icon 4  -->
+                <div class="h-8 group">
+                  <a href="">
+                    <img src="images/icon-instagram.svg" class="h-6" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- Copy -->
+              <div class="font-oswald text-primary">
+                &copy; Copyright 2025. All Rights Reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <!-- Lightbox Modal -->
+      <div id="lightbox" class="hidden fixed inset-0 z-50 bg-black bg-opacity-80 items-center justify-center">
+        <button id="lightbox-close" class="absolute top-4 right-4 text-white text-3xl leading-none" aria-label="Kapat">&times;</button>
+        <div class="p-4">
+          <img id="lightbox-img" src="" alt="Büyük Görsel" class="max-w-full max-h-screen rounded shadow-lg" />
+        </div>
+      </div>
+  </body>
+  </html>
+
+

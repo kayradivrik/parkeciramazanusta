@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .custom-input {
+    @apply border border-gray-400 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+  }
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald.eot');
+  src: local('☺'), url('../fonts/Oswald.woff') format('woff'),
+    url('../fonts/Oswald.ttf') format('truetype'),
+    url('../fonts/Oswald.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'QuattrocentoSans-Regular';
+  src: url('../fonts/QuattrocentoSans-Regular.eot');
+  src: local('☺'), url('../fonts/QuattrocentoSans-Regular.woff') format('woff'),
+    url('../fonts/QuattrocentoSans-Regular.ttf') format('truetype'),
+    url('../fonts/QuattrocentoSans-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #211917 url(../images/bg-body.png) repeat-y center top;
+  font-family: 'QuattrocentoSans-Regular';
+  margin: 0;
+}
+
+#hero {
+  background-color: #241b18;
+  height: 8rem;
+  border-bottom: 0.1rem solid #fff;
+}
+
+.adbox {
+  background: url(../images/bg-pattern.jpg) no-repeat left top;
+  background-size: cover;
+}
+
+.featured div.details {
+  background: url(../images/separator-light.png) repeat-x left top;
+  padding: 16px 20px 0;
+}
+
+.max-w-960 {
+  max-width: 960px;
+}
+
+.btn1 {
+  background-position: 0 0;
+  color: #966a01;
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  width: 109px;
+}
+
+.btn1,
+.btn2 {
+  background: url(../images/buttons.png) no-repeat;
+  cursor: pointer;
+  font: 14px/24px 'Oswald';
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.time {
+  background: url(../images/bg-time.png) no-repeat left top;
+  background-size: cover;
+}
+
+#newsletter input {
+  color: #4b3a33;
+  height: 26px;
+  line-height: 26px;
+  width: 269px;
+  border: 3px solid #af8112;
+  margin: 0 0 6px;
+  padding: 0 4px;
+}
+
+#newsletter input.btn2 {
+  color: #fff;
+  width: 83px;
+  border: 0;
+  padding: 0px 0 2px;
+}
+
+#newsletter {
+  background: url(../images/separator-dark.png) repeat-x left bottom;
+  width: 284px;
+  margin: 0 0 16px 6px;
+  padding: 0 0 20px;
+}
+
+#links > div {
+  background: url(../images/separator-dark-vertical.png) repeat-y left top;
+  height: 300px;
+  padding-left: 20px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+  transform: translateY(11px) rotate(45deg);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: translateY(11px) rotate(-45deg);
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} 
+  
+.quattrocento-sans-regular {
+  font-family: "Quattrocento Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quattrocento-sans-bold {
+  font-family: "Quattrocento Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quattrocento-sans-regular-italic {
+  font-family: "Quattrocento Sans", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quattrocento-sans-bold-italic {
+  font-family: "Quattrocento Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+*/

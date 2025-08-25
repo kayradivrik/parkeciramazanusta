@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="js/script.js" defer></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Videolar | Parkeci Ramazan Usta</title>
+  </head>
+  <body>
+    <section id="hero">
+        <div class="container max-w-6xl mx-auto px-6 py-6">
+          <!-- Menu/Logo Container -->
+          <nav
+            class="flex items-center justify-evenly lg:justify-evenly text-white"
+          >
+            <!-- Logo -->
+             <a href="/">
+            <img
+              src="./images/logo.png"
+              alt="Img"
+              class="w-3/4 h-3/4 md:w-auto md:h-auto object-cover"
+            />
+        </a>
+            <!-- Menu -->
+            <div class="hidden h-10 font-oswald lg:flex lg:space-x-6 uppercase">
+              <div class="group">
+                <a href="/" class="group-hover:text-gray-300">ANASAYFA</a>
+                <div
+                  class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+                ></div>
+              </div>
+  
+              <div class="group">
+                <a href="gallery.html" class="group-hover:text-gray-300">GALERİ</a>
+                <div
+                  class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+                ></div>
+              </div>
+  
+              <div class="group">
+                <a href="videos.html" class="group-hover:text-gray-300">VİDEOLAR</a>
+                <div
+                  class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+                ></div>
+              </div>
+  
+              <div class="group">
+                <a href="#" class="group-hover:text-gray-300">HİZMETLER</a>
+                <div
+                  class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+                ></div>
+              </div>
+  
+              <div class="group">
+                <a href="#" class="group-hover:text-gray-300">HAKKIMIZDA </a>
+                <div
+                  class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+                ></div>
+              </div>
+  
+              <div class="group">
+                <a href="#" class="group-hover:text-gray-300">İLETİŞİM </a>
+                <div
+                  class="mx-2 bg-white group-hover:border-b group-hover:border-accent"
+                ></div>
+              </div>
+            </div>
+            <!-- Hamburger Button -->
+            <div class="lg:hidden">
+              <button
+                id="menu-btn"
+                type="button"
+                class="z-50 bloc hamburger lg:hidden focus:outline-none"
+              >
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+              </button>
+            </div>
+          </nav>
+          <!-- Mobile Menu -->
+  
+          <div
+            id="menu"
+            class="fixed z-40 inset-y-0 right-0 hidden translate-x-full transition-transform duration-300 ease-out flex-col w-72 max-w-full min-h-screen py-1 pt-40 px-6 space-y-1 text-lg text-white uppercase bg-[#241b18] lg:hidden shadow-xl"
+          >
+            <a href="#" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">ANASAYFA</a>
+            <a href="#" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">GALERİ</a>
+            <a href="#" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">VİDEOLAR</a>
+            <a href="#" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">HİZMETLER</a>
+            <a href="#" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">HAKKIMDA</a>
+            <a href="#" class="block w-full px-3 py-3 rounded hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-accent">İLETİŞİM</a>
+          </div>
+        </div>
+      </section>
+    <main class="container max-w-960 mx-auto px-4 py-10">
+      <div class="bg-white p-6 md:p-8">
+      <h1 class="font-oswald text-3xl text-[#241b18] mb-8">Videolarım</h1>
+
+      <!-- Video Row 1 -->
+      <section class="py-5 px-4 md:px-6 border   border-[#e5e5e5] first:border-t-">
+        <div class="flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-full md:w-1/2">
+            <div class="aspect-video bg-black">
+              <iframe class="w-full h-full" src="https://www.youtube.com/embed/ncX6uH0xqk0" title="Sistre Cila" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2">
+            <h2 class="font-oswald text-xl text-[#241b18] mb-3">PARKE SİSTRE CİLA USTASI - SİSTRE CİLA</h2>
+            <p class="text-[#241b18] leading-relaxed mb-4">Videoda sistre işlemini ithal tozsuz cila ile yaptığım bir uygulamayı anlatıyorum. Kenarlara makine ile girmeden önce zımpara yapıyor, süpürgeliklere zarar vermeden ilerliyorum. Dikkat ve emek gerektiren bu işlem cilanın iyiliği için çok önemlidir.</p>
+            <a href="index.html#contact" class="btn1 text-white text-center bg-[#ffc947] py-1 px-4 inline-block">İLETİŞİME GEÇ</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Row 2 -->
+      <section class="py-6 px-4 md:px-6 border-t border-[#e5e5e5]">
+        <div class="flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-full md:w-1/2">
+            <div class="aspect-video bg-black">
+              <iframe class="w-full h-full" src="https://www.youtube.com/embed/1lo8Ih2b0K8" title="Cilalama İşlemi" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2">
+            <h2 class="font-oswald text-xl text-[#241b18] mb-3">PARKE SİSTRE CİLA USTASI - CİLALAMA İŞLEMİ</h2>
+            <p class="text-[#241b18] leading-relaxed mb-4">Ahşap parkelerde cilalama öncesi hazırlık ve son kat uygulamalarını gösteriyorum. Isı ve ses izolasyonu avantajlarını da kısaca anlatıyorum. Uygun zeminde doğru cilalama uzun ömür sağlar.</p>
+            <a href="index.html#contact" class="btn1 text-white text-center bg-[#ffc947] py-1 px-4 inline-block">İLETİŞİME GEÇ</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Row 3 -->
+      <section class="py-6 px-4 md:px-6 border-t border-[#e5e5e5]">
+        <div class="flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-full md:w-1/2">
+            <div class="aspect-video bg-black">
+              <iframe class="w-full h-full" src="https://www.youtube.com/embed/2Vv-BfVoq4g" title="Tozsuz Sistre" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2">
+            <h2 class="font-oswald text-xl text-[#241b18] mb-3">PARKE SİSTRE CİLA USTASI - TOZSuz SİSTRE</h2>
+            <p class="text-[#241b18] leading-relaxed mb-4">Tozsuz makine ile yapılan sistre işlemi ortamda toz oluşumunu en aza indirir. Doğru ekipman ve aşamalarla hem daha temiz hem de daha hızlı sonuç alınır.</p>
+            <a href="index.html#contact" class="btn1 text-white text-center bg-[#ffc947] py-1 px-4 inline-block">İLETİŞİME GEÇ</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Row 4 -->
+      <section class="py-6 px-4 md:px-6 border-t border-[#e5e5e5]">
+        <div class="flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-full md:w-1/2">
+            <div class="aspect-video bg-black">
+              <iframe class="w-full h-full" src="https://www.youtube.com/embed/kXYiU_JCYtU" title="Renkli Cila" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2">
+            <h2 class="font-oswald text-xl text-[#241b18] mb-3">RENKLİ CİLA UYGULAMASI</h2>
+            <p class="text-[#241b18] leading-relaxed mb-4">Renkli cila ile zemine sıcak bir ton kazandırma süreci ve dikkat edilmesi gereken noktaları paylaşıyorum.</p>
+            <a href="index.html#contact" class="btn1 text-white text-center bg-[#ffc947] py-1 px-4 inline-block">İLETİŞİME GEÇ</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Row 5 -->
+      <section class="py-6 px-4 md:px-6 border-t border-[#e5e5e5]">
+        <div class="flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-full md:w-1/2">
+            <div class="aspect-video bg-black">
+              <iframe class="w-full h-full" src="https://www.youtube.com/embed/3JZ_D3ELwOQ" title="Bakım" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2">
+            <h2 class="font-oswald text-xl text-[#241b18] mb-3">PARKE BAKIMI VE KORUMA</h2>
+            <p class="text-[#241b18] leading-relaxed mb-4">Cilalı yüzeyin uzun ömürlü olması için günlük/haftalık bakım önerileri ve kaçınılması gereken temizlik ürünleri.</p>
+            <a href="index.html#contact" class="btn1 text-white text-center bg-[#ffc947] py-1 px-4 inline-block">İLETİŞİME GEÇ</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Row 6 -->
+      <section class="py-6 px-4 md:px-6 border-t border-[#e5e5e5]">
+        <div class="flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-full md:w-1/2">
+            <div class="aspect-video bg-black">
+              <iframe class="w-full h-full" src="https://www.youtube.com/embed/LsoLEjrDogU" title="Masif Parke" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2">
+            <h2 class="font-oswald text-xl text-[#241b18] mb-3">MASİF PARKE UYGULAMASI</h2>
+            <p class="text-[#241b18] leading-relaxed mb-4">Masif parke döşeme sürecinin kısa özeti: zemin hazırlığı, yerleşim, sistre ve son kat uygulaması.</p>
+            <a href="index.html#contact" class="btn1 text-white text-center bg-[#ffc947] py-1 px-4 inline-block">İLETİŞİME GEÇ</a>
+          </div>
+        </div>
+      </section>
+      </div>
+    </main>
+
+    <footer class="bg-accent">
+        <div class="container max-w-960 py-10 mx-auto">
+          <!-- Footer Flex Container -->
+          <div
+            class="flex flex-col mx-24  items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start"
+          >
+            <!-- Menu & logo Container -->
+            <div
+              class="flex flex-col items-center space-y-8 md:items-start md:space-y-4"
+            >
+              <!-- Logo -->
+              <div class="h-8 md:space-y-4">
+                <img src="images/logo.svg" alt="" class="w-44 md:ml-3" />
+              </div>
+              <!-- Menu Container -->
+              <div
+                class="flex flex-col items-center space-y-4 font-oswald text-primary md:flex-row md:space-y-0 md:space-x-6 md:ml-3"
+              >
+                <!-- Item 1 -->
+                <div class="h-10 group">
+                  <a href="">Anasayfa</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 2 -->
+                <div class="h-10 group">
+                  <a href="">Galeri</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 3 -->
+                <div class="h-10 group">
+                  <a href="">Videolar</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 4-->
+                <div class="h-10 group">
+                  <a href="">Hizmetler</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 5 -->
+                <div class="h-10 group">
+                  <a href="">Hakkımda</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+  
+                <!-- Item 6 -->
+                <div class="h-10 group">
+                  <a href="">İletişim</a>
+                  <div
+                    class="bg-white group-hover:border-b group-hover:border-white"
+                  ></div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Social & Copy Container -->
+            <div class="flex flex-col items-start justify-between space-y-4">
+              <!-- Icon Container -->
+              <div
+                class="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0"
+              >
+                <!-- Icon 1  -->
+                <div class="h-8 group">
+                  <a href="">
+                    <img src="images/icon-facebook.svg" class="h-6" alt="" />
+                  </a>
+                </div>
+  
+                <!-- Icon 2  -->
+                <div class="h-8 group">
+                  <a href="">
+                    <img src="images/icon-twitter.svg" class="h-6" alt="" />
+                  </a>
+                </div>
+  
+                <!-- Icon 3  -->
+                <div class="h-8 group">
+                  <a href="">
+                    <img src="images/icon-pinterest.svg" class="h-6" alt="" />
+                  </a>
+                </div>
+  
+                <!-- Icon 4  -->
+                <div class="h-8 group">
+                  <a href="">
+                    <img src="images/icon-instagram.svg" class="h-6" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- Copy -->
+              <div class="font-oswald text-primary">
+                &copy; Copyright 2025. All Rights Reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+  </html>
+
+
