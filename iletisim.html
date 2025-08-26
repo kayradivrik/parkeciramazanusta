@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="js/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <title>İletişim | Parkeci Ramazan Usta</title>
+  </head>
+  <body>
+    <section id="hero">
+      <div class="container max-w-6xl mx-auto px-6 py-6">
+        <nav class="flex items-center justify-evenly lg:justify-evenly text-white">
+          <a href="/"><img src="./images/logo.png" alt="Logo" class="w-3/4 h-3/4 md:w-auto md:h-auto object-cover" /></a>
+          <div class="hidden h-10 font-oswald lg:flex lg:space-x-6 uppercase">
+            <div class="group"><a href="index.html" class="group-hover:text-gray-300">ANASAYFA</a><div class="mx-2 bg-white group-hover:border-b group-hover:border-accent"></div></div>
+            <div class="group"><a href="gallery.html" class="group-hover:text-gray-300">GALERİ</a><div class="mx-2 bg-white group-hover:border-b group-hover:border-accent"></div></div>
+            <div class="group"><a href="videos.html" class="group-hover:text-gray-300">VİDEOLAR</a><div class="mx-2 bg-white group-hover:border-b group-hover:border-accent"></div></div>
+            <div class="group"><a href="hizmetler.html" class="group-hover:text-gray-300">HİZMETLER</a><div class="mx-2 bg-white group-hover:border-b group-hover:border-accent"></div></div>
+            <div class="group"><a href="hakkimizda.html" class="group-hover:text-gray-300">HAKKIMIZDA</a><div class="mx-2 bg-white group-hover:border-b group-hover:border-accent"></div></div>
+            <div class="group"><a href="iletisim.html" class="text-[#ffc947]">İLETİŞİM</a><div class="mx-2 bg-white group-hover:border-b group-hover:border-accent"></div></div>
+          </div>
+          <div class="lg:hidden">
+            <button id="menu-btn" type="button" class="z-50 bloc hamburger lg:hidden focus:outline-none">
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </nav>
+        <div id="menu" class="fixed z-40 inset-y-0 right-0 hidden translate-x-full transition-transform duration-300 ease-out flex-col w-72 max-w-full min-h-screen py-1 pt-40 px-6 space-y-1 text-lg text-white uppercase bg-[#241b18] lg:hidden shadow-xl">
+          <a href="index.html" class="block w-full px-3 py-3 rounded hover:bg-white/10">ANASAYFA</a>
+          <a href="gallery.html" class="block w-full px-3 py-3 rounded hover:bg-white/10">GALERİ</a>
+          <a href="videos.html" class="block w-full px-3 py-3 rounded hover:bg-white/10">VİDEOLAR</a>
+          <a href="hizmetler.html" class="block w-full px-3 py-3 rounded hover:bg-white/10">HİZMETLER</a>
+          <a href="hakkimizda.html" class="block w-full px-3 py-3 rounded hover:bg-white/10">HAKKIMDA</a>
+          <a href="iletisim.html" class="block w-full px-3 py-3 rounded bg-white/10">İLETİŞİM</a>
+        </div>
+      </div>
+    </section>
+
+    <main class="container max-w-[900px] mx-auto px-4 py-10">
+      <div class="bg-white p-6 md:p-8">
+        <h1 class="font-oswald text-3xl text-[#241b18] mb-8">SİZİN İÇİN NE YAPABİLİRİM. ?</h1>
+
+        <section class="grid grid-cols-1 md:grid-cols-[1fr,380px] gap-8">
+          <!-- Left: Contact form -->
+          <form class="space-y-4" action="mailto:ParkeciRamazan@gmail.com" method="post" enctype="text/plain">
+            <div>
+              <label class="block text-[#241b18] mb-1">Adınız</label>
+              <input class="w-full border-2 border-[#ffc947] px-3 py-2" type="text" name="ad" required />
+            </div>
+            <div>
+              <label class="block text-[#241b18] mb-1">E-mail adresiniz</label>
+              <input class="w-full border-2 border-[#ffc947] px-3 py-2" type="email" name="email" required />
+            </div>
+            <div>
+              <label class="block text-[#241b18] mb-1">Mümkünse iletişim numaranız</label>
+              <input class="w-full border-2 border-[#ffc947] px-3 py-2" type="tel" name="telefon" />
+            </div>
+            <div>
+              <label class="block text-[#241b18] mb-1">Mesajınız</label>
+              <textarea class="w-full min-h-[180px] border-2 border-[#ffc947] px-3 py-2" name="mesaj" required></textarea>
+            </div>
+            <div>
+              <label class="block text-[#241b18] mb-1">Sonucu kutuya yazınız = 8 + 15</label>
+              <input class="w-full border-2 border-[#ffc947] px-3 py-2" type="number" placeholder="23" required />
+            </div>
+            <button type="submit" class="btn1 text-white text-center bg-[#ffc947] py-1 px-4">MAİL İLE GÖNDER</button>
+
+            <a href="https://wa.me/905327891990" target="_blank" class="mt-4 inline-flex items-center gap-3 border border-[#e5e5e5] p-4">
+              <img src="images/icon-instagram.svg" alt="" class="w-6 h-6 hidden" />
+              <span class="font-oswald text-[#241b18]">DİREKT MESAJ İLE ULAŞ. TIKLA</span>
+              <span class="text-[#241b18]">0(532) 789 19 90</span>
+            </a>
+          </form>
+
+          <!-- Right: Video/Image and contact cards -->
+          <aside>
+            <div class="w-full bg-white border border-[#e5e5e5] p-2">
+              <img src="images/chair.jpg" alt="Sistre Makinesi" class="w-full h-[380px] object-cover" />
+            </div>
+            <div class="mt-6 p-6 bg-[#f7f3ef] border border-[#e5e5e5] space-y-4">
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-[#ffc947] flex items-center justify-center text-primary font-oswald text-xl">☎</div>
+                <div>
+                  <div class="font-oswald text-[#241b18]">İLETİŞİM TELEFONU</div>
+                  <div class="text-[#241b18] font-bold">0532 789 1990</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-[#ffc947] flex items-center justify-center text-primary font-oswald text-xl">✉</div>
+                <div>
+                  <div class="font-oswald text-[#241b18]">E-MAIL ADRESİ</div>
+                  <div class="text-[#241b18]">ParkeciRamazan@gmail.com</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-[#25D366] text-white flex items-center justify-center font-oswald text-xl">WA</div>
+                <div>
+                  <div class="font-oswald text-[#241b18]">WhatsApp İletişim</div>
+                  <div class="text-[#241b18]">0532 789 1990</div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </div>
+    </main>
+
+    <footer class="bg-accent">
+      <div class="container max-w-960 py-10 mx-auto">
+        <div class="flex flex-col mx-24  items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start">
+          <div class="flex flex-col items-center space-y-8 md:items-start md:space-y-4">
+            <div class="h-8 md:space-y-4"><img src="images/logo.svg" alt="" class="w-44 md:ml-3" /></div>
+            <div class="flex flex-col items-center space-y-4 font-oswald text-primary md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
+              <div class="h-10 group"><a href="index.html">Anasayfa</a><div class="bg-white group-hover:border-b group-hover:border-white"></div></div>
+              <div class="h-10 group"><a href="gallery.html">Galeri</a><div class="bg-white group-hover:border-b group-hover:border-white"></div></div>
+              <div class="h-10 group"><a href="videos.html">Videolar</a><div class="bg-white group-hover:border-b group-hover:border-white"></div></div>
+              <div class="h-10 group"><a href="hizmetler.html">Hizmetler</a><div class="bg-white group-hover:border-b group-hover:border-white"></div></div>
+              <div class="h-10 group"><a href="hakkimizda.html">Hakkımda</a><div class="bg-white group-hover:border-b group-hover:border-white"></div></div>
+              <div class="h-10 group"><a href="iletisim.html">İletişim</a><div class="bg-white group-hover:border-b group-hover:border-white"></div></div>
+            </div>
+          </div>
+          <div class="flex flex-col items-start justify-between space-y-4">
+            <div class="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0">
+              <div class="h-8 group"><a href=""><img src="images/icon-facebook.svg" class="h-6" alt="" /></a></div>
+              <div class="h-8 group"><a href=""><img src="images/icon-twitter.svg" class="h-6" alt="" /></a></div>
+              <div class="h-8 group"><a href=""><img src="images/icon-pinterest.svg" class="h-6" alt="" /></a></div>
+              <div class="h-8 group"><a href=""><img src="images/icon-instagram.svg" class="h-6" alt="" /></a></div>
+            </div>
+            <div class="font-oswald text-primary">&copy; Copyright 2025. All Rights Reserved.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>
+
+
