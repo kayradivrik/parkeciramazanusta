@@ -668,6 +668,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -786,6 +791,14 @@ video {
 
 .h-\[500\] {
   height: 500;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .max-h-screen {
@@ -938,6 +951,18 @@ video {
 
 .max-w-\[61\.5rem\] {
   max-width: 61.5rem;
+}
+
+.max-w-\[61\.rem\] {
+  max-width: 61.rem;
+}
+
+.max-w-\[60rem\] {
+  max-width: 60rem;
+}
+
+.max-w-\[63\.5rem\] {
+  max-width: 63.5rem;
 }
 
 .flex-1 {
@@ -1149,8 +1174,35 @@ video {
   background-image: url('../images/separator-dark.png');
 }
 
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'images\/separator-light\.png\'\)\] {
+  background-image: url('images/separator-light.png');
+}
+
+.from-transparent {
+  --tw-gradient-from: transparent var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-\[\#ffc947\] {
+  --tw-gradient-to: rgb(255 201 71 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #ffc947 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-transparent {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
 .bg-top {
   background-position: top;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-repeat-x {
