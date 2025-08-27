@@ -20,11 +20,13 @@
           class="flex items-end justify-evenly lg:justify-between text-white"
         >
           <!-- Logo -->
-          <img
-            src="./images/logo.png"
-            alt="Img"
-            class="w-3/4 h-3/4 md:w-auto md:h-auto object-cover"
-          />
+          <a href="./index.html">
+            <img
+              src="./images/logo.png"
+              alt="Img"
+              class="w-3/4 h-3/4 md:w-auto md:h-auto object-cover"
+            />
+          </a>
           <!-- Menu -->
           <div class="hidden h-10 font-oswald lg:flex lg:space-x-6 uppercase">
             <div class="group">
@@ -100,7 +102,7 @@
 
     <main class="container max-w-[62rem] mx-auto px-4 ">
       <div class="bg-white p-6 md:p-8">
-        <h1 class="font-oswald text-3xl text-[#241b18] mb-8">SİZİN İÇİN NE YAPABİLİRİM. ?</h1>
+        <h1 class="font-oswald text-3xl text-[#241b18] mb-8">SİZİN İÇİN NE YAPABİLİRİM ?</h1>
 
         <section class="grid grid-cols-1 md:grid-cols-[1fr,380px] gap-8">
           <!-- Left: Contact form -->
@@ -122,13 +124,9 @@
               <textarea class="w-full min-h-[180px] border-2 border-[#ffc947] px-3 py-2" name="mesaj" required></textarea>
             </div>
           
-            <button type="submit" class="btn1 text-white text-center bg-[#ffc947] py-1 px-4">MAİL İLE GÖNDER</button>
+            <button type="submit" class="btn1  text-[0.7rem] text-center bg-[#ffc947] py-1 px-4">MAİL İLE GÖNDER</button>
 
-            <a href="https://wa.me/905327891990" target="_blank" class="mt-4 inline-flex items-center gap-3 border border-[#e5e5e5] p-4">
-              <img src="images/icon-instagram.svg" alt="" class="w-6 h-6 hidden" />
-              <span class="font-oswald text-[#241b18]">DİREKT MESAJ İLE ULAŞ. TIKLA</span>
-              <span class="text-[#241b18]">0(532) 789 19 90</span>
-            </a>
+           
           </form>
 
           <!-- Right: Video/Image and contact cards -->
@@ -137,27 +135,32 @@
               <img src="images/chair.jpg" alt="Sistre Makinesi" class="w-full h-[380px] object-cover" />
             </div>
             <div class="mt-6 p-6 bg-[#f7f3ef] border border-[#e5e5e5] space-y-4">
-              <div class="flex items-center gap-4">
+              <a href="tel:+905327891990" class="flex items-center gap-4">
                 <div class="w-12 h-12 rounded-full bg-[#ffc947] flex items-center justify-center text-primary font-oswald text-xl">☎</div>
                 <div>
                   <div class="font-oswald text-[#241b18]">İLETİŞİM TELEFONU</div>
-                  <div class="text-[#241b18] font-bold">0532 789 1990</div>
+                  <span class="text-[#241b18] font-bold">0532 789 1990</span>
                 </div>
-              </div>
-              <div class="flex items-center gap-4">
-                <div class="w-12 h-12 rounded-full bg-[#ffc947] flex items-center justify-center text-primary font-oswald text-xl">✉</div>
-                <div>
+              </a>
+              <a href="mailto:ParkeciRamazan@gmail.com" class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-full bg-[#ffc947] flex items-center justify-center">
+                  <img src="images/email-open-svgrepo-com.svg" alt="E-mail" class="w-6 h-6" />
+                </div>
+                <div class="min-w-0">
                   <div class="font-oswald text-[#241b18]">E-MAIL ADRESİ</div>
-                  <div class="text-[#241b18]">ParkeciRamazan@gmail.com</div>
+                  <span class="text-[#241b18] whitespace-normal break-words break-all text-xs sm:text-sm md:text-base leading-snug">ParkeciRamazan@gmail.com</span>
                 </div>
-              </div>
-              <div class="flex items-center gap-4">
-                <div class="w-12 h-12 rounded-full bg-[#25D366] text-white flex items-center justify-center font-oswald text-xl">WA</div>
+              </a>
+            
+              <a href="https://wa.me/905327891990" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-[#ffc947] flex items-center justify-center">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-6 h-6" />
+                </div>
                 <div>
                   <div class="font-oswald text-[#241b18]">WhatsApp İletişim</div>
-                  <div class="text-[#241b18]">0532 789 1990</div>
+                  <span class="text-[#241b18]">0532 789 1990</span>
                 </div>
-              </div>
+              </a>
             </div>
           </aside>
         </section>
@@ -240,28 +243,28 @@
             >
               <!-- Icon 1  -->
               <div class="h-8 group">
-                <a href="">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                   <img src="images/icon-facebook.svg" class="h-6" alt="" />
                 </a>
               </div>
 
               <!-- Icon 2  -->
               <div class="h-8 group">
-                <a href="">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                   <img src="images/icon-twitter.svg" class="h-6" alt="" />
                 </a>
               </div>
 
               <!-- Icon 3  -->
               <div class="h-8 group">
-                <a href="">
+                <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
                   <img src="images/icon-pinterest.svg" class="h-6" alt="" />
                 </a>
               </div>
 
               <!-- Icon 4  -->
               <div class="h-8 group">
-                <a href="">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                   <img src="images/icon-instagram.svg" class="h-6" alt="" />
                 </a>
               </div>
